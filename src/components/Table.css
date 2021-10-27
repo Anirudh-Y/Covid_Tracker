@@ -1,0 +1,21 @@
+.table{
+    margin-top: 20px;
+    background-color: white;
+    overflow: scroll;
+    height: 400px;
+}
+
+.table tr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td{
+    padding: 5px;
+    border: none;
+}
+
+.table tr:nth-of-type(odd){
+    background-color: gainsboro;
+}
+

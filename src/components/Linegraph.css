@@ -1,0 +1,10 @@
+.linegraph{
+    width : 500px;
+    height : 500px
+}
+
+@media (max-width : 873px){
+    .linegraph{
+        width: 100%;
+    }
+}
